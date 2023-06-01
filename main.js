@@ -174,9 +174,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
   initialize();
-  // start();
-  const startButton = document.createElement("button");
-  startButton.textContent = "Start";
-  startButton.addEventListener("click", start);
-  document.body.appendChild(startButton);
 });
